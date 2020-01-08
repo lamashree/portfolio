@@ -1,0 +1,28 @@
+.parallax {
+    height: 200px;
+    width: fit-content;
+}
+
+body, html {
+    height: 100%;
+    background-image: url("../images/short_quotes_about_life-.jpg");
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/photo-1494548162494-384bba4ab999.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
