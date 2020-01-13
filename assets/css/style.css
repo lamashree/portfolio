@@ -1,11 +1,9 @@
-.parallax {
-    height: 200px;
-    width: fit-content;
-}
+
 
 body, html {
     height: 100%;
     background-image: url("../images/short_quotes_about_life-.jpg");
+
     scroll-behavior: smooth;
     background-repeat: no-repeat;
     background-position: center center;
@@ -15,14 +13,74 @@ body, html {
     background-size: cover;
 }
 
+
 .parallax {
-    /* The image used */
-    background-image: url("../images/photo-1494548162494-384bba4ab999.jpg");
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+ 
+  background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+div.row.valign-wrapper {
+    text-align: center;
+    display: block;
+    margin-left: 245px;
+}
+
+p1 {
+    font-weight: bold;
+    font-size-adjust: 0.8;
+}
+
+.main-button {
+    text-align: center;
+}
+
+a:link {
+    /* padding: 12px; */
+    padding: 10px;
+    height: 10px;
+    margin-left: 15px;
+}
+
+.parallax-container {
+    height: 400px;
+}
+
+.paralla-container{
+    
+    background-image: url("../original_230849_onNveqlOWV0MQbcw4uPfqugNJ.jpg");
+
+}
+
+.main-container{
+    border-width: .5px;
+    width: 700px;
+}
+.card {
+    width: 700px;
+    text-align: center;
+}
+
+
+.mb-4, .my-4{
+    margin-left: 100px;
+    background-color:BurlyWood ;
+   
+}
+
+.main-container{
+background-image: url("../golden-particles-bokeh-background_52683-22159.jpg");
+margin-top: 15px;
+
+}
+
+.card-content.white-text{
+    text-align: left;
+}
+.row{
+    margin-left: 51px;
+    margin-block-start: 30px;
+}
+
