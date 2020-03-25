@@ -4,16 +4,16 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.8he;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  opacity:0.5 ;
 }
 .bgimg-1 {
   background-image: url("../assets/images/photo-1494548162494-384bba4ab999.jpg");
