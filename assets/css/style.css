@@ -1,9 +1,6 @@
-
-
 body, html {
     height: 100%;
-    background-image: url("../images/short_quotes_about_life-.jpg");
-
+   background-image: url("../images/short_quotes_about_life-.jpg"); 
     scroll-behavior: smooth;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,10 +10,8 @@ body, html {
     background-size: cover;
 }
 
-
 .parallax {
- 
-  background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,39 +43,43 @@ a:link {
     height: 400px;
 }
 
-.paralla-container{
-    
+.paralla-container {
     background-image: url("../original_230849_onNveqlOWV0MQbcw4uPfqugNJ.jpg");
-
 }
 
-.main-container{
+.main-container {
     border-width: .5px;
     width: 700px;
 }
+
 .card {
     width: 700px;
-    text-align: center;
+    text-align: start;
 }
 
-
-.mb-4, .my-4{
-    margin-left: 100px;
-    background-color:#ffff;
-   
+.mb-4, .my-4 {
+    /* margin-left: 100px; */
+    background-color: #ffff;
 }
 
-.main-container{
-background-image: url("../golden-particles-bokeh-background_52683-22159.jpg");
-margin-top: 15px;
-
+.main-container {
+    background-image: url("../golden-particles-bokeh-background_52683-22159.jpg");
+    margin-top: 15px;
 }
 
-.card-content.white-text{
+.card-content.white-text {
     text-align: left;
 }
-.row{
-    margin-left: 51px;
+
+.row {
+    margin-left: 20px;
     margin-block-start: 30px;
 }
 
+div.card.mb-4 {
+    margin-left: -11px;
+}
+
+col.s12.m7{
+    font-size: medium;
+}
