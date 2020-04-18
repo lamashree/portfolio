@@ -1,7 +1,6 @@
 # portfolio
 
-## Link 
- (https://lamashree.github.io/portfolio-update/)
+ URL : https://lamashree.github.io/portfolio-update// 
 ## Overview
 This is my updated portfolio page. I created this page completely from start . In this portfolio i developed using two different html Library like Bootstrap and Materialize to update portfolio materials. in this web page i update page with current project we have done till today.
 
