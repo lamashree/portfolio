@@ -5,14 +5,23 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 
-}
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+}
+.bgimg-1{
   position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+ .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
 }
 .bgimg-1 {
   background-image: url("../assets/images/photo-1494548162494-384bba4ab999.jpg");
@@ -27,6 +36,11 @@ body, html {
 .bgimg-3 {
   background-image: url("../assets/IMG_3049.jpg");
   min-height: 400px;
+}
+.bgimg-4 {
+  background-image: url("../assets/nepal.jpg");
+  min-height: 400px;
+
 }
 
 .caption {
@@ -46,7 +60,7 @@ body, html {
   letter-spacing: 10px;
 }
 
-h3 {
+h4 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
@@ -86,6 +100,15 @@ main {
 .fas{
   font-size: 20px;
   padding: 15px;
+}
+ .Row {
+  margin-left: -90px;
+  width: 850px;
+}  
 
+p {
+  color: #000;
 }
 
+
+ 

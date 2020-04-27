@@ -58,7 +58,6 @@ a:link {
 }
 
 .mb-4, .my-4 {
-    /* margin-left: 100px; */
     background-color: #ffff;
 }
 
@@ -98,6 +97,7 @@ col.s12.m7{
   .skillHeading{
       text-align: center;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-decoration: underline;
   }
 
   .fab.fa-react  {
@@ -145,7 +145,7 @@ col.s12.m7{
          float: left;
          margin-left:65px;
       }
-      h1{
+      h2{
           margin-top: 10px;
           text-align: center;
       }
@@ -155,4 +155,20 @@ col.s12.m7{
 
       }
 
-    
+      .fa-bootstrap{
+        color:#9933CC;
+        font-size: 100px;
+        padding: 15px;
+      }
+      .header{
+          margin-top: 3.5rem;
+      }
+
+      .aboutMe{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           text-decoration: underline;
+      }
+     h2{
+          text-align: center;
+          text-justify: newspaper;
+      }
